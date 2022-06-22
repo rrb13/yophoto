@@ -1,0 +1,45 @@
+.navbarContainer{
+    height: 50px;
+    width: 100%;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.navbarLeft{
+    flex: 2;
+}
+
+.navbarLogo{
+    font-size: 1.5rem;
+    margin-left: 20px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+.navbarCenter{
+    flex: 8;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbarLink{
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbarRight{
+    flex: 2;
+    background-color: green;
+}
+
+.navbarImg{
+    width: 32px;
+    height: 32px;
+}
